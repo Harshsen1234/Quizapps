@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color: #35063E;
+}
+.app {
+    background-color: #F5F5F4;
+    width: 90%;
+    max-width: 650px;
+    margin: 100px auto;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.app h1 {
+    font-size: 40px;
+    color: #2C3E50;
+    font-weight: 900;
+}
+.quiz {
+    padding: 20px 0px;
+}
+.quiz h2 {
+    font-size: 25px;
+    color: #2C3E50;
+    font-weight: bold;
+}
+.btn {
+    background-color: white;
+    color: #2C3E50;
+    font-weight: bold;
+    width: 100%;
+    border: 2px solid #2C3E50;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover:not([disabled]) {
+    background-color: #2C3E50;
+    color: white;
+}
+.btn:disabled {
+    cursor: no-drop;
+}
+.next-btn {
+    background-color: #0056B3;
+    color: white;
+    font-weight: bold;
+    width: 120px;
+    border: 0;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.next-btn:hover {
+    background-color: #007BFF;
+}
+.correct {
+   background-color: green;
+    color: white;
+}
+.incorrect {
+   background-color: red;
+    color: white;
+}
+.trophy-img {
+    width: 100px;
+    height: auto;
+}
+.trophy {
+    display: none;
+    background-image: url(Mytrophy.png); /* Ensure this path is correct */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100px;
+    width: 100%;
+}
