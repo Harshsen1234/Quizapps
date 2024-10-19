@@ -3,11 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Your App Title</title>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="Quiz.css">
 </head>
 <body>
-    <div id="root"></div>
-    <script src="index.js"></script>
+    <div class="app">
+        <h1>Web Development Quiz</h1>
+        <div class="quiz">
+            <h2 id="question">1. sample questions goes here</h2>
+            <div id="answer-buttons" class="answer-buttons">
+                <button class="btn">Sample 1</button>
+                <button class="btn">Sample 2</button>
+                <button class="btn">Sample 3</button>
+                <button class="btn">Sample 4</button>
+            </div>
+        </div>
+        <div class="trophy-img">
+            <div id="trophy" class="trophy"></div>
+            <button id="next-btn" class="next-btn">Next</button>
+        </div>
+    </div>
+    <script src="Quiz.js"></script>
 </body>
 </html>
